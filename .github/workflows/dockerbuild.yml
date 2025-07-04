@@ -1,0 +1,9 @@
+name: Docker Image Build
+
+on:
+  push:
+    bracnhes:
+      -main
+    workflow_dispatch:
+
+    
